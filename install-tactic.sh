@@ -12,6 +12,7 @@ yum install -y emacs-nox
 
 yum install -y httpd
 yum install -y git
+yum install -y gcc
 
 rpm -Uvh http://yum.postgresql.org/9.2/redhat/rhel-6-x86_64/pgdg-centos92-9.2-6.noarch.rpm
 yum install -y postgresql92 postgresql92-server postgresql92-contrib postgresql92-devel python-psycopg2
